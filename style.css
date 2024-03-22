@@ -76,11 +76,12 @@ border-color:  #1da1f2;
 }
 .plant{
     display: flex;
-    gap: 20px;
+    flex-wrap: wrap;
+    gap: 10px;
     text-align: left;
     border-radius: 2px;
     margin: 4px;
-    padding: 20px;
+    padding: 10px;
     justify-content: center;
 }
 #last-pic{
@@ -116,6 +117,12 @@ border-color:  #1da1f2;
 #body{
     background-color: #00CCCC;
     padding: 50px;
+
+}
+.blog{
+    display: flex;
+    gap: 900px;
+    padding: 60px;
 
 }
 
@@ -154,7 +161,7 @@ body{
 }
 button{
 background-color: #1da1f2; color: aliceblue; border-radius: 4px;
-width: 200px;
+width: 100px;
 height: 50px;
 border-color:  #1da1f2;
 
@@ -167,11 +174,13 @@ border-color:  #1da1f2;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    gap: 250px;
+    flex-wrap: wrap;
+    gap: 20px;
     background-color: #00356B;
     padding: 20px;
-    font-size: 30px;
+    font-size: 10px;
     border: #324AB2;
+    
 }
 
 .text-1{
@@ -186,11 +195,12 @@ border-color:  #1da1f2;
 }
 #circle{
     display: flex;
-    gap: 50px;
-    padding: 40px;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
 }
 .circle-text{
-    padding: 50px;
+    padding: 20px;
     text-align: left;
     
 }
@@ -228,14 +238,15 @@ border-color:  #1da1f2;
 }
 .content{
     display: flex;
-    gap: 100px;
+    flex-wrap: wrap;
+    gap: 20px;
     border-bottom: solid 3px gray;
 }
 
 
 #footer{
     background-color: #008080;
-    padding: 70px;
+    padding: 20px;
 }
 .strong{
     word-spacing: 5px;
@@ -243,14 +254,168 @@ border-color:  #1da1f2;
 }
 #container{
     background-color: white;
-    padding: 5
+    padding: 5;
 }
 #body{
     background-color: #00CCCC;
     padding: 50px;
 
 }
+.blog{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 60px;
 
+}
 
 
 }
+
+
+
+
+
+
+
+
+
+
+@media all and (min-width: 320px) and (max-width: 768px){
+
+    #navbar{
+        display: flex;
+        gap: 50px;
+        background-color: #0C2340;
+        color: white;
+        margin: auto;
+        padding: 5px;
+        word-spacing: 15px;
+        
+    }
+    .aa{
+        gap: 20px;
+    }
+    .text{
+        padding: 20px;
+        color: aliceblue;
+    }
+    
+    
+    body{
+    
+    }
+    button{
+    background-color: #1da1f2; color: aliceblue; border-radius: 4px;
+    width: 100px;
+    height: 50px;
+    border-color:  #1da1f2;
+    
+    }
+     
+    #phone{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photos/man.jpg");background-color: #00356B;
+        min-height: 700px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;;
+        display: flex;
+        gap: 20px;
+        background-color: #00356B;
+        padding: 20px;
+        font-size: 10px;
+        border: #324AB2;
+    
+        
+    }
+    
+    .text-1{
+        text-align: center;
+        padding: 20px;
+    }
+    .middle{
+        display: flex;
+        gap: 20px;
+        text-align: center;
+        padding: 20px;
+    }
+    #circle{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 20px;
+    }
+    .circle-text{
+        padding: 20px;
+        text-align: left;
+        
+    }
+    #statistics{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(photos/ipad.jpg);
+        min-height: 700px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        color: white;
+        padding: 20px;
+        font-size: 30px;
+    
+    }
+    .plant{
+        display: flex;
+        gap: 20px;
+        text-align: left;
+        border-radius: 2px;
+        margin: 4px;
+        padding: 20px;
+        justify-content: center;
+    }
+    #last-pic{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(photos/girls.jpg);
+        min-height: 700px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        color: white;
+        padding: 20px;
+        font-size: 30px;
+    }
+    .content{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        border-bottom: solid 3px gray;
+    }
+    
+    
+    #footer{
+        background-color: #008080;
+        padding: 20px;
+    }
+    .strong{
+        word-spacing: 5px;
+        padding: 50px;
+    }
+    #container{
+        background-color: white;
+        padding: 5;
+    }
+    #body{
+        background-color: #00CCCC;
+        padding: 50px;
+        width: 150%;
+    
+    }
+    .blog{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 60px;
+    
+    }
+    
+    
+    }
+
